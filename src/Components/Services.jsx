@@ -21,7 +21,7 @@ const Services = () => {
 
     return (
         <div>
-            <h1 className="text-center text-3xl font-bold mb-8 mt-8">Other Services</h1>
+            <h1 className="text-center text-3xl font-bold mb-8 mt-32">Other Services</h1>
             <div className="mb-4 flex justify-center space-x-8">
                 {services.map((service, index) => (
                     <div key={index} className="flex items-start p-4 bg-[#ECF5FF] rounded-sm max-w-md">
