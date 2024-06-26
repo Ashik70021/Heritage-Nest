@@ -4,6 +4,12 @@ import { GiCircleForest } from "react-icons/gi";
 import { FaIntercom } from "react-icons/fa";
 import { MdNetworkWifi } from "react-icons/md";
 import { MdSportsTennis } from "react-icons/md";
+import { GiLift } from "react-icons/gi";
+import { CiParking1 } from "react-icons/ci";
+import { PiTelevision } from "react-icons/pi";
+import { FaCcDinersClub } from "react-icons/fa";
+import { MdOutlineSecurity } from "react-icons/md";
+import { MdOutlineSportsGymnastics } from "react-icons/md";
 
 
 const Amenities = () => {
@@ -43,11 +49,11 @@ const Amenities = () => {
                 {/* Div 2 */}
                 <div>
                     <div className="flex gap-2 items-center mb-6">
-                        <MdSettingsPower className="text-4xl bg-white p-2" />
+                        <GiLift className="text-4xl bg-white p-2" />
                         <p className="text-lg font-medium text-[#101010]">Lift</p>
                     </div>
                     <div className="flex gap-2 items-center mb-6">
-                        <MdPark className="text-4xl bg-white p-2" />
+                        <CiParking1 className="text-4xl bg-white p-2" />
                         <p className="text-lg font-medium text-[#101010]">Reserved Parking</p>
                     </div>
                     <div className="flex gap-2 items-center mb-6">
@@ -59,7 +65,7 @@ const Amenities = () => {
                         <p className="text-lg font-medium text-[#101010]">Maintenance Staff</p>
                     </div>
                     <div className="flex gap-2 items-center mb-6">
-                        <MdNetworkWifi className="text-4xl bg-white p-2" />
+                        <PiTelevision className="text-4xl bg-white p-2" />
                         <p className="text-lg font-medium text-[#101010]">DTH Television Facility</p>
                     </div>
                     <div className="flex gap-2 items-center mb-6">
@@ -71,11 +77,11 @@ const Amenities = () => {
                 {/* Div 3 */}
                 <div>
                     <div className="flex gap-2 items-center mb-6">
-                        <MdSettingsPower className="text-4xl bg-white p-2" />
+                        <FaCcDinersClub className="text-4xl bg-white p-2" />
                         <p className="text-lg font-medium text-[#101010]">Club House</p>
                     </div>
                     <div className="flex gap-2 items-center mb-6">
-                        <MdPark className="text-4xl bg-white p-2" />
+                        <MdOutlineSecurity className="text-4xl bg-white p-2" />
                         <p className="text-lg font-medium text-[#101010]">Security</p>
                     </div>
                     <div className="flex gap-2 items-center mb-6">
@@ -99,7 +105,7 @@ const Amenities = () => {
                 {/* Div 4 */}
                 <div>
                     <div className="flex gap-2 items-center mb-6">
-                        <MdSettingsPower className="text-4xl bg-white p-2" />
+                        <MdOutlineSportsGymnastics className="text-4xl bg-white p-2" />
                         <p className="text-lg font-medium text-[#101010]">Gymnasium</p>
                     </div>
                     <div className="flex gap-2 items-center mb-6">

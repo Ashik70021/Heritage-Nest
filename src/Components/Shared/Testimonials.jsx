@@ -18,7 +18,7 @@ const Testimonials = () => {
     ];
 
     return (
-        <div className="mt-24 mb-4 max-w-7xl mx-auto">
+        <div className="mt-24 mb-4 max-w-7xl mx-auto mont">
             <h1 className="text-center text-4xl font-bold mb-8">Testimonials</h1>
             <div className="flex justify-center space-x-4">
                 {testimonials.map((testimonial, index) => (

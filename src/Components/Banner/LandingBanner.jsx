@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import videoBackground from '../../assets/Video/-f8f8-4a60-bda2-7982b8d7a898.mp4';
 
@@ -16,7 +15,7 @@ const LandingBanner = () => {
                 Your browser does not support the video tag.
             </video>
             <div className="relative z-10 text-center mx-auto text-white px-6 md:px-12">
-                <h1 className="text-xl md:text-7xl font-bold mb-4">Your Portal to India's </h1>
+                <h1 className="ext-xl md:text-7xl font-bold mb-4">Your Portal to India's </h1>
                 <h1 className="text-xl md:text-7xl font-bold mb-4">Exquisite Real Estate </h1>
                 <p className="text-lg md:text-xl mt-8 mb-8">
                     Seamlessly connecting you to the heartbeat of India's prime properties.
