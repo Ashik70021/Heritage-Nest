@@ -5,14 +5,14 @@ const Testimonials = () => {
             rating: 5,
             description: "'The level of security provided by CypherPlay is unmatched. I feel confident using my card for both everyday purchases and travel. It's the peace of mind I was looking for.'",
             name: 'Tony Stark',
-            profilePic: 'https://via.placeholder.com/50',
+            profilePic: 'https://i.ibb.co/2Yf9qrc/profile1.jpg',
             position: 'Marketing manager, XYZ',
         },
         {
             rating: 4,
             description: "'The level of security provided by CypherPlay is unmatched. I feel confident using my card for both everyday purchases and travel. It's the peace of mind I was looking for.'",
             name: 'Jane Smith',
-            profilePic: 'https://via.placeholder.com/50',
+            profilePic: 'https://i.ibb.co/N7VSVK8/profile2.jpg',
             position: 'Marketing manager, XYZ',
         },
     ];

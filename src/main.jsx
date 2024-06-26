@@ -10,6 +10,7 @@ import Root from './Components/Root';
 import Landing from './Components/Pages/Landing';
 import BuyersPage from './Components/Pages/BuyersPage';
 import About from './Components/Pages/About';
+import PropertyDetails from './Components/Pages/PropertyDetails';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,11 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About></About>
+      },
+      {
+        path: "/propertydetails/:id",
+        element: <PropertyDetails></PropertyDetails>,
+        loader: () => fetch('../public/properties.json')
       },
     ]
   },

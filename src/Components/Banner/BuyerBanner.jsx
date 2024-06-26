@@ -2,23 +2,23 @@
 const BuyerBanner = () => {
     return (
         <div className="relative bg-cover bg-center h-96 mb-36" style={{ backgroundImage: 'url(https://i.ibb.co/fHpGxkb/buyerbanner.jpg)' }}>
-            <div className="absolute inset-0 top-72 bg-black bg-opacity-50 flex items-center justify-center ">
+            <div className="absolute inset-0 top-72 flex items-center justify-center ">
                 <div className="bg-white p-8 rounded-lg shadow-xl max-w-4xl w-full">
                     <div>
                         <ul className="items-stretch hidden lg:flex">
                             <li className="flex hover:underline hover:text-[#005EAE]">
                                 <a rel="noopener noreferrer" href="/buyerspage" className="flex items-center px-4 -mb-1 border-b-2 border-transparent">Buy</a>
                             </li>
-                            <li className="flex">
+                            <li className="flex hover:underline hover:text-[#005EAE]">
                                 <a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 border-transparent">Rent</a>
                             </li>
-                            <li className="flex">
+                            <li className="flex hover:underline hover:text-[#005EAE]">
                                 <a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 border-transparent">PG</a>
                             </li>
-                            <li className="flex">
+                            <li className="flex hover:underline hover:text-[#005EAE]">
                                 <a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 border-transparent">Plot</a>
                             </li>
-                            <li className="flex">
+                            <li className="flex hover:underline hover:text-[#005EAE]">
                                 <a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 border-transparent">Commercial</a>
                             </li>
                         </ul>
