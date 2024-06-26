@@ -11,6 +11,7 @@ import Landing from './Components/Pages/Landing';
 import BuyersPage from './Components/Pages/BuyersPage';
 import About from './Components/Pages/About';
 import PropertyDetails from './Components/Pages/PropertyDetails';
+import AllProperty from './Components/AllProperty';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
         path: "/propertydetails/:id",
         element: <PropertyDetails></PropertyDetails>,
         loader: () => fetch('../public/properties.json')
+      },
+      {
+        path: "/allproperty",
+        element: <AllProperty></AllProperty>,
       },
     ]
   },

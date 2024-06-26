@@ -5,7 +5,6 @@ import { CiImageOn } from "react-icons/ci";
 
 const PropertyCardSection = ({ heading }) => {
     const [properties, setProperties] = useState([]);
-    console.log(properties)
     useEffect(() => {
         fetch('properties.json')
             .then(res => res.json())
@@ -29,7 +28,7 @@ const PropertyCardSection = ({ heading }) => {
         <div className="max-w-7xl mx-auto py-8 mt-8">
             <div className='mb-4 flex justify-between items-center'>
                 <h1 className='text-3xl font-semibold text-[#111827]'>{heading}</h1>
-                <a className='text-lg font-semibold text-[#0059B1] hover:underline' href="">See all property</a>
+                <a className='text-lg font-semibold text-[#0059B1] hover:underline' href="/allproperty">See all property</a>
             </div>
             <div className="relative flex items-center">
                 <button onClick={prevSlide} className="absolute left-0 top-24 z-10 p-2 bg-[#5490CB] rounded-full shadow-md hover:bg-gray-200">
@@ -44,9 +43,6 @@ const PropertyCardSection = ({ heading }) => {
                                     <div className="bg-[#F9FAFB] rounded-lg shadow-lg overflow-hidden">
                                         <div className="relative">
                                             <img src={property.images[0]} alt={property.name} className="w-full h-52 object-cover" />
-                                            {/* <div className="absolute bottom-0 left-0 bg-gray-900 bg-opacity-75 text-white p-2 text-sm">
-                                                {property.images.length} Images
-                                            </div> */}
                                             <div className="absolute bottom-2 left-3 bg-[#FDF0E7] flex gap-1 justify-center items-center rounded-md px-2 ">
                                                 <CiImageOn className='text-xl font-bold text-[#EE6611]' />
                                                 <p className='text-[#101010] text-xl font-semibold'>{property.images.length}</p>
