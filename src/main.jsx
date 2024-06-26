@@ -33,7 +33,6 @@ const router = createBrowserRouter([
       {
         path: "/propertydetails/:id",
         element: <PropertyDetails></PropertyDetails>,
-        loader: () => fetch('../public/properties.json')
       },
       {
         path: "/allproperty",

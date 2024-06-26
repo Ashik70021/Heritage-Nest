@@ -49,8 +49,7 @@ const BidProperty = () => {
         <span>${minValue}k</span>
         <input
           type="range"
-        //   value={`${minValue}, ${maxValue}`}
-        
+          //   value={`${minValue}, ${maxValue}`}
           onChange={handleSliderChange}
           className="flex-1 "
         />

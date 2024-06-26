@@ -5,6 +5,7 @@ import { SiSmartthings } from "react-icons/si";
 
 
 const Overview = ({property}) => {
+    
     return (
         <div className="bg-[#E5E7EB] w-full p-8 mt-8">
             <h1 className="text-2xl font-semibold mb-8">Overview</h1>
